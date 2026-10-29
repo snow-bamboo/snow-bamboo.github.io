@@ -1,0 +1,59 @@
+# ===== Claudia 主题配置（站点根目录，优先级高于主题内 _config.yml）=====
+
+# 左侧栏个人信息
+user:
+  name: snow-bamboo            # 会显示为 "snow-bamboo's blog"
+  avatar: /images/avatar.png   # 头像，放到 source/images/avatar.jpg
+  location: China
+  description: 记录学习与生活
+  footnotes:                   # 可选脚注
+
+# 顶部导航菜单
+menu:
+  Home: /
+  About: /about
+  Archive: /archives
+
+# 侧边栏小部件（顺序即展示顺序）
+widgets:
+  - profile
+  - category
+  - tag
+  - archive
+  - recent_posts
+
+# 社交链接（不需要的留空或删除该行）
+social:
+  github: snow-bamboo
+  zhihu:
+  twitter:
+  facebook:
+  linkedin:
+  instagram:
+
+# 站点图标
+favicon: /images/favicon.ico
+
+# 外观：light / dark / auto（auto 跟随系统，推荐）
+appearance: auto
+
+# 评论区 — utterances（基于 GitHub Issues，免注册，推荐）
+comment_utteranc:
+  enable: true
+  repo: snow-bamboo/snow-bamboo.github.io   # 改成你的仓库
+
+# 评论区 — Valine（需要 LeanCloud，二选一）
+comment_valine:
+  enable: false
+  appId:
+  appKey:
+
+# 访问统计（留空则不加载）
+ba_track_id:      # 百度统计
+ga_track_id:      # Google Analytics
+ga_domain:
+
+# 友情链接（覆盖主题默认的 Google/Github/V2EX/Twitter，设为空列表即不显示）
+friend_links: []
+  # - title: 示例站点
+  #   link: https://example.com/
